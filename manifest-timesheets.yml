@@ -2,7 +2,7 @@ applications:
   -
     env:
       REGISTRATION_SERVER_ENDPOINT: "http://registrations-pal-sm.apps.chicken.pal.pivotal.io"
-    host: timesheets-pal-INITIALS
+    host: timesheets-pal-sm
     instances: 1
     memory: 1G
     name: tracker-timesheets
