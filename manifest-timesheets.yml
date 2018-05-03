@@ -7,5 +7,5 @@ applications:
     memory: 1G
     name: tracker-timesheets
     path: ./applications/timesheets-server/build/libs/timesheets-server.jar
-services:
-  - tracker-timesheets-database
+    services:
+      - tracker-timesheets-database
