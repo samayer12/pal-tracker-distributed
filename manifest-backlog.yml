@@ -1,7 +1,5 @@
 applications:
   -
-    env:
-      REGISTRATION_SERVER_ENDPOINT: http://registration-pal-sm.apps.longs.pal.pivotal.io
     host: backlog-pal-sm
     instances: 1
     memory: 1G
@@ -9,3 +7,4 @@ applications:
     path: ./applications/backlog-server/build/libs/backlog-server.jar
     services:
       - tracker-backlog-database
+      - tracker-service-registry

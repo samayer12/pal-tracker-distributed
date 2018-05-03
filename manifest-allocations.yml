@@ -1,7 +1,5 @@
 applications:
   -
-    env:
-      REGISTRATION_SERVER_ENDPOINT: http://registration-pal-sm.apps.longs.pal.pivotal.io
     host: allocations-pal-sm
     instances: 1
     memory: 1G
@@ -9,3 +7,4 @@ applications:
     path: ./applications/allocations-server/build/libs/allocations-server.jar
     services:
       - tracker-allocations-database
+      - tracker-service-registry

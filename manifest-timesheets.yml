@@ -1,7 +1,5 @@
 applications:
   -
-    env:
-      REGISTRATION_SERVER_ENDPOINT: http://registration-pal-sm.apps.longs.pal.pivotal.io
     host: timesheets-pal-sm
     instances: 1
     memory: 1G
@@ -9,3 +7,5 @@ applications:
     path: ./applications/timesheets-server/build/libs/timesheets-server.jar
     services:
       - tracker-timesheets-database
+      - tracker-service-registry
+

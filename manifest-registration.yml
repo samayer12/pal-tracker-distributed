@@ -7,3 +7,4 @@ applications:
     path: ./applications/registration-server/build/libs/registration-server.jar
     services:
       - tracker-registration-database
+      - tracker-service-registry
