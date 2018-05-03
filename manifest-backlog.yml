@@ -1,7 +1,7 @@
 applications:
   -
     env:
-      REGISTRATION_SERVER_ENDPOINT: "http://registrations-pal-sm.apps.chicken.pal.pivotal.io"
+      REGISTRATION_SERVER_ENDPOINT: http://registrations-pal-sm.apps.longs.pal.pivotal.io
     host: backlog-pal-sm
     instances: 1
     memory: 1G
